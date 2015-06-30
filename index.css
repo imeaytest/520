@@ -1,0 +1,1243 @@
+body{
+    margin:0;
+    padding:0;
+}
+@-webkit-keyframes egg {
+    0%{
+        -webkit-transform:translateX(-200px);
+        opacity: 0;
+    }
+    75%{
+        -webkit-transform:translateX(20px);
+    }
+    90%{
+        -webkit-transform:translateX(10px);
+    }
+    100%{
+        -webkit-transform:translateX(0px);
+        opacity: 1;
+    }
+}
+#bigEgg{
+    width:750px;
+    margin:0 auto;
+    -webkit-animation: egg 1s both;
+    color: red;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+#bigBox{
+    width:750px;
+    height: 650px;
+    text-align: center;
+}
+@-webkit-keyframes p1 {
+    0% {
+        -webkit-transform:translateX(750px);
+    }
+    50%{
+        -webkit-transform:translateX(0px);
+    }
+    100%{
+        -webkit-transform:translateX(-750px);
+    }
+}
+@-webkit-keyframes p2 {
+    0% {
+        -webkit-transform:translateX(-750px);
+    }
+    50%{
+        -webkit-transform:translateX(0px);
+    }
+    100%{
+        -webkit-transform:translateX(750px);
+    }
+}
+@-webkit-keyframes p3{
+    0% {
+        -webkit-transform:translateY(-750px);
+    }
+    50%{
+        -webkit-transform:translateY(0px);
+    }
+    100%{
+        -webkit-transform:translateY(750px);
+    }
+}
+@-webkit-keyframes p4 {
+    0% {
+        -webkit-transform:translateY(750px);
+    }
+    50%{
+        -webkit-transform:translateY(0px);
+    }
+    100%{
+        -webkit-transform:translateY(-750px);
+    }
+}
+@-webkit-keyframes p5 {
+    0% {
+        -webkit-transform:rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform:rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes p6 {
+    0% {
+        -webkit-transform:rotate(360deg);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform:rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        -webkit-transform:rotate(0deg);
+        opacity: 0;
+    }
+}
+#bigBox{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+p{
+    position: absolute;
+    text-align: center;
+    background-position: center 0;
+    height: 100%;
+    width: 100%;
+}
+#p1{
+    background: url('images/1.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 0s both;
+}
+#p2{
+    background: url('images/2.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 2s both ;
+}
+#p3{
+    background: url('images/3.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 4s both ;
+}
+#p4{
+    background: url('images/4.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 6s both ;
+}
+#p5{
+    background: url('images/5.png') no-repeat center 0 ;
+    -webkit-animation: p1 4s  8s both;
+}
+#p6{
+    margin-top: 150px;
+    background: url('images/6.png') no-repeat center 0 ;
+    -webkit-animation: p2 4s 8s  both ;
+}
+#p7{
+    margin-top: 260px;
+    background: url('images/7.png') no-repeat center 0 ;
+    -webkit-animation: p1 4s 8s both ;
+}
+#p8{
+    background: url('images/8.png') no-repeat center 0 ;
+    -webkit-animation: p2 4s 12s both ;
+}
+#p9{
+    margin-top: 180px;
+    background: url('images/9.png') no-repeat center 0 ;
+    -webkit-animation: p1  4s  12s both;
+}
+#p10{
+    margin-top: 290px;
+    background: url('images/10.png') no-repeat center 0 ;
+    -webkit-animation: p2 4s 12s both ;
+}
+#p11{
+    background: url('images/11.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 16s both;
+}
+#p12{
+    background: url('images/12.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 16s both ;
+}
+#p13{
+    background: url('images/13.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 18s both ;
+}
+#p14{
+    background: url('images/14.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 18s both ;
+}
+#p15{
+    background: url('images/15.png') no-repeat center 0 ;
+    -webkit-animation: p1 4s 20s both;
+}
+#p16{
+    margin-top: 100px;
+    background: url('images/16.png') no-repeat center 0 ;
+    -webkit-animation: p2 4s  20s both ;
+}
+#p17{
+    margin-top: 200px;
+    background: url('images/17.png') no-repeat center 0 ;
+    -webkit-animation: p2 4s 20s both ;
+}
+#p18{
+    margin-top:350px;
+    background: url('images/18.png') no-repeat center 0 ;
+    -webkit-animation: p1 4s 20s both ;
+}
+#p19{
+    margin-top: 400px;
+    background: url('images/19.png') no-repeat center 0 ;
+    -webkit-animation: p3  2s 24s both;
+}
+#p20{
+    background: url('images/20.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 26s both ;
+}
+#p21{
+    background: url('images/21.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 28s both;
+}
+#p22{
+    background: url('images/22.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 30s both ;
+}
+#p23{
+    background: url('images/23.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 32s both ;
+}
+#p24{
+    background: url('images/24.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 34s both ;
+}
+#p25{
+    background: url('images/25.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 36s both;
+}
+#p26{
+    background: url('images/26.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  38s both ;
+}
+#p27{
+    background: url('images/27.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 40s both ;
+}
+#p28{
+    background: url('images/28.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 42s both ;
+}
+#p29{
+    background: url('images/29.png') no-repeat center 0 ;
+    -webkit-animation: p3  2s 44s both;
+}
+#p30{
+    background: url('images/30.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 46s both ;
+}
+#p31{
+    background: url('images/31.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 48s both;
+}
+#p32{
+    background: url('images/32.png') no-repeat center 0 ;
+    -webkit-animation: p2 4s 50s both ;
+}
+#wantToSay{
+    -webkit-animation: remove 1s  63s both;
+}
+#wantToSay p{
+    margin: 0;
+    padding: 0;
+    position: static;
+    line-height: 30px;
+    visibility: hidden;
+    font-family: "微软雅黑";
+}
+@-webkit-keyframes text {
+    0%{
+        -webkit-transform: translateY(-100px);
+    }
+    100%{
+        -webkit-transform: translateY(0px);
+        visibility:visible;
+    }
+}
+@-webkit-keyframes text1 {
+    0%{
+        -webkit-transform: translateY(100px);
+    }
+    100%{
+        -webkit-transform: translateY(0px);
+        visibility:visible;
+    }
+}
+#wantToSay p:nth-child(1){
+    -webkit-animation: text 1s 55s both;
+}
+#wantToSay p:nth-child(2){
+    -webkit-animation: text1 1s 56s both;
+}
+#wantToSay p:nth-child(3){
+    -webkit-animation: text 1s 57s both;
+}
+#wantToSay p:nth-child(4){
+    -webkit-animation: text1 1s 58s both;
+}
+#wantToSay p:nth-child(5){
+    -webkit-animation: text 1s 59s both;
+}
+#wantToSay p:nth-child(6){
+    -webkit-animation: text1 1s 60s both;
+}
+#wantToSay p:nth-child(7){
+    -webkit-animation: text 1s 61s both;
+}
+#wantToSay p:nth-child(8){
+    -webkit-animation: text1 1s 62s both;
+}
+@-webkit-keyframes remove {
+   0%{
+   }
+    100%{
+        -webkit-transform: translateX(-750px);
+    }
+ }
+#p33{
+    background: url('images/33.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 64s both ;
+}
+#p34{
+    background: url('images/34.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 66s both ;
+}
+#p35{
+    background: url('images/35.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 68s both;
+}
+#p36{
+    background: url('images/36.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s  70s both ;
+}
+#p37{
+    background: url('images/37.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 72s both ;
+}
+#p38{
+    background: url('images/38.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 74s both ;
+}
+#p39{
+    background: url('images/39.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 76s both;
+}
+#p40{
+    background: url('images/40.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 78s both ;
+}
+#p41{
+    background: url('images/41.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 80s both;
+}
+#p42{
+    background: url('images/42.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 82s both ;
+}
+#p43{
+    background: url('images/43.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 84s both ;
+}
+#p44{
+    background: url('images/44.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 86s both ;
+}
+#p45{
+    background: url('images/45.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 88s both;
+}
+#p46{
+    background: url('images/46.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s  90s both ;
+}
+#p47{
+    background: url('images/47.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 92s both ;
+}
+#p48{
+    background: url('images/48.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 94s both ;
+}
+#p49{
+    background: url('images/49.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s  96s both;
+}
+#p50{
+    background: url('images/50.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 98s both ;
+}
+#p51{
+    background: url('images/51.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 100s both;
+}
+#p52{
+    background: url('images/52.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 102s both ;
+}
+#p53{
+    background: url('images/53.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 104s both ;
+}
+#p54{
+    background: url('images/54.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 106s both ;
+}
+#p55{
+    background: url('images/55.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 108s both;
+}
+#p56{
+    background: url('images/56.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  110s both ;
+}
+#p57{
+    background: url('images/57.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 112s both ;
+}
+#p58{
+    background: url('images/58.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 114s both ;
+}
+#p59{
+    background: url('images/59.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 116s both;
+}
+#p60{
+    background: url('images/60.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 118s both ;
+}
+#p61{
+    background: url('images/61.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 120s both;
+}
+#p62{
+    background: url('images/62.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 122s both ;
+}
+#p63{
+    background: url('images/63.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 124s both ;
+}
+#p64{
+    background: url('images/64.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 126s both ;
+}
+#p65{
+    background: url('images/65.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 128s both;
+}
+#p66{
+    background: url('images/66.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s  130s both ;
+}
+#p67{
+    background: url('images/67.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 132s both ;
+}
+#p68{
+    background: url('images/68.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 134s both ;
+}
+#p69{
+    background: url('images/69.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 136s both;
+}
+#p70{
+    background: url('images/70.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 138s both ;
+}
+#p71{
+    background: url('images/71.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 140s both;
+}
+#p72{
+    background: url('images/72.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 142s both ;
+}
+#p73{
+    background: url('images/73.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 144s both ;
+}
+#p74{
+    background: url('images/74.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 146s both ;
+}
+#p75{
+    background: url('images/75.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 148s both;
+}
+#p76{
+    background: url('images/76.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s  150s both ;
+}
+#p77{
+    background: url('images/77.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 152s both ;
+}
+#p78{
+    background: url('images/78.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 154s both ;
+}
+#p79{
+    background: url('images/79.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 156s both;
+}
+#p80{
+    background: url('images/80.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 158s both ;
+}
+#p81{
+    background: url('images/81.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 160s both;
+}
+#p82{
+    background: url('images/82.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 162s both ;
+}
+#p83{
+    background: url('images/83.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 164s both ;
+}
+#p84{
+    background: url('images/84.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 166s both ;
+}
+#p85{
+    background: url('images/85.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 168s both;
+}
+#p86{
+    background: url('images/86.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  170s both ;
+}
+#p87{
+    background: url('images/87.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 172s both ;
+}
+#p88{
+    background: url('images/88.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 174s both ;
+}
+#p89{
+    background: url('images/89.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 176s both;
+}
+#p90{
+    background: url('images/90.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 178s both ;
+}
+#p91{
+    background: url('images/91.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 180s both;
+}
+#p92{
+    background: url('images/92.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 182s both ;
+}
+#p93{
+    background: url('images/93.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 184s both ;
+}
+#p94{
+    background: url('images/94.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 186s both ;
+}
+#p95{
+    background: url('images/95.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 188s both;
+}
+#p96{
+    background: url('images/96.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  190s both ;
+}
+#p97{
+    background: url('images/97.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 192s both ;
+}
+#p98{
+    background: url('images/98.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 194s both ;
+}
+#p99{
+    background: url('images/99.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 196s both;
+}
+#p100{
+    background: url('images/100.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 198s both ;
+}
+#p101{
+    background: url('images/101.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 200s both;
+}
+#p102{
+    background: url('images/102.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 202s both ;
+}
+#p103{
+    background: url('images/103.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 204s both ;
+}
+#p104{
+    background: url('images/104.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 206s both ;
+}
+#p105{
+    background: url('images/105.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 208s both;
+}
+#p106{
+    background: url('images/106.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  210s both ;
+}
+#p107{
+    background: url('images/107.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 212s both ;
+}
+#p108{
+    background: url('images/108.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 214s both ;
+}
+#p109{
+    background: url('images/109.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 216s both;
+}
+#p110{
+    background: url('images/110.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 218s both ;
+}
+#p111{
+    background: url('images/111.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 220s both;
+}
+#p112{
+    background: url('images/112.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 222s both ;
+}
+#p113{
+    background: url('images/113.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 224s both ;
+}
+#p114{
+    background: url('images/114.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 226s both ;
+}
+#p115{
+    background: url('images/115.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 228s both;
+}
+#p116{
+    background: url('images/116.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  230s both ;
+}
+#p117{
+    background: url('images/117.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 232s both ;
+}
+#p118{
+    background: url('images/118.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 234s both ;
+}
+#p119{
+    background: url('images/119.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 236s both;
+}
+#p120{
+    background: url('images/120.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 238s both ;
+}
+#p121{
+    background: url('images/121.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 240s both;
+}
+#p122{
+    background: url('images/122.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 242s both ;
+}
+#p123{
+    background: url('images/123.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 244s both ;
+}
+#p124{
+    background: url('images/124.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 246s both ;
+}
+#p125{
+    background: url('images/125.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 248s both;
+}
+#p126{
+    background: url('images/126.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  250s both ;
+}
+#p127{
+    background: url('images/127.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 252s both ;
+}
+#p128{
+    background: url('images/128.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 254s both ;
+}
+#p129{
+    background: url('images/129.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s  256s both;
+}
+#p130{
+    background: url('images/130.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 258s both ;
+}
+#p131{
+    background: url('images/131.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 260s both;
+}
+#p132{
+    background: url('images/132.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 262s both ;
+}
+#p133{
+    background: url('images/133.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 264s both ;
+}
+#p134{
+    background: url('images/134.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 266s both ;
+}
+#p135{
+    background: url('images/135.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 268s both;
+}
+#p136{
+    background: url('images/136.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  270s both ;
+}
+#p137{
+    background: url('images/137.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 272s both ;
+}
+#p138{
+    background: url('images/138.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 274s both ;
+}
+#p139{
+    background: url('images/139.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 276s both;
+}
+#p140{
+    background: url('images/140.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 278s both ;
+}
+#p141{
+    background: url('images/141.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 280s both;
+}
+#p142{
+    background: url('images/142.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 282s both ;
+}
+#p143{
+    background: url('images/143.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 284s both ;
+}
+#p144{
+    background: url('images/144.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 286s both ;
+}
+#p145{
+    background: url('images/145.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 288s both;
+}
+#p146{
+    background: url('images/146.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 290s both ;
+}
+#p147{
+    background: url('images/147.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 292s both ;
+}
+#p148{
+    background: url('images/148.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 294s both ;
+}
+#p149{
+    background: url('images/149.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s  296s both;
+}
+#p150{
+    background: url('images/150.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 298s both ;
+}
+#p151{
+    background: url('images/151.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 300s both;
+}
+#p152{
+    background: url('images/152.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 302s both ;
+}
+#p153{
+    background: url('images/153.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 304s both ;
+}
+#p154{
+    background: url('images/154.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 306s both ;
+}
+#p155{
+    background: url('images/155.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 308s both;
+}
+#p156{
+    background: url('images/156.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  310s both ;
+}
+#p157{
+    background: url('images/157.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 312s both ;
+}
+#p158{
+    background: url('images/158.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 314s both ;
+}
+#p159{
+    background: url('images/159.png') no-repeat center 0 ;
+    -webkit-animation: p3  2s 316s both;
+}
+#p160{
+    background: url('images/160.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 318s both ;
+}
+#p161{
+    background: url('images/161.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 320s both;
+}
+#p162{
+    background: url('images/162.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 322s both ;
+}
+#p163{
+    background: url('images/163.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 324s both ;
+}
+#p164{
+    background: url('images/164.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 326s both ;
+}
+#p165{
+    background: url('images/165.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 328s both;
+}
+#p166{
+    background: url('images/166.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  330s both ;
+}
+#p167{
+    background: url('images/167.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 332s both ;
+}
+#p168{
+    background: url('images/168.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 334s both ;
+}
+#p169{
+    background: url('images/169.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 336s both;
+}
+#p170{
+    background: url('images/170.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 338s both ;
+}
+#p171{
+    background: url('images/171.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 340s both;
+}
+#p172{
+    background: url('images/172.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 342s both ;
+}
+#p173{
+    background: url('images/173.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 344s both ;
+}
+#p174{
+    background: url('images/174.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 346s both ;
+}
+#p175{
+    background: url('images/175.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 348s both;
+}
+#p176{
+    background: url('images/176.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  350s both ;
+}
+#p177{
+    background: url('images/177.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 352s both ;
+}
+#p178{
+    background: url('images/178.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 354s both ;
+}
+#p179{
+    background: url('images/179.png') no-repeat center 0 ;
+    -webkit-animation: p3  2s 356s both;
+}
+#p180{
+    background: url('images/180.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 358s both ;
+}
+#p181{
+    background: url('images/181.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 360s both;
+}
+#p182{
+    background: url('images/182.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 362s both ;
+}
+#p183{
+    background: url('images/183.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 364s both ;
+}
+#p184{
+    background: url('images/184.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 366s both ;
+}
+#p185{
+    background: url('images/185.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 368s both;
+}
+#p186{
+    background: url('images/186.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  370s both ;
+}
+#p187{
+    background: url('images/187.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 372s both ;
+}
+#p188{
+    background: url('images/188.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 374s both ;
+}
+#p189{
+    background: url('images/189.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 376s both;
+}
+#p190{
+    background: url('images/190.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 378s both ;
+}
+#p191{
+    background: url('images/191.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 380s both;
+}
+#p192{
+    background: url('images/192.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 382s both ;
+}
+#p193{
+    background: url('images/193.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 384s both ;
+}
+#p194{
+    background: url('images/194.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 386s both ;
+}
+#p195{
+    background: url('images/195.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 388s both;
+}
+#p196{
+    background: url('images/196.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  390s both ;
+}
+#p197{
+    background: url('images/197.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 392s both ;
+}
+#p198{
+    background: url('images/198.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 394s both ;
+}
+#p199{
+    background: url('images/199.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s  396s both;
+}
+#p200{
+    background: url('images/200.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 398s both ;
+}
+#p201{
+    background: url('images/201.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 400s both;
+}
+#p202{
+    background: url('images/202.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 402s both ;
+}
+#p203{
+    background: url('images/203.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 404s both ;
+}
+#p204{
+    background: url('images/204.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 406s both ;
+}
+#p205{
+    background: url('images/205.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 408s both;
+}
+#p206{
+    background: url('images/206.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  410s both ;
+}
+#p207{
+    background: url('images/207.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 412s both ;
+}
+#p208{
+    background: url('images/208.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 414s both ;
+}
+#p209{
+    background: url('images/209.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s  416s both;
+}
+#p210{
+    background: url('images/210.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 418s both ;
+}
+#p211{
+    background: url('images/211.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 420s both;
+}
+#p212{
+    background: url('images/212.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 422s both ;
+}
+#p213{
+    background: url('images/213.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 424s both ;
+}
+#p214{
+    background: url('images/214.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 426s both ;
+}
+#p215{
+    background: url('images/215.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 428s both;
+}
+#p216{
+    background: url('images/216.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  430s both ;
+}
+#p217{
+    background: url('images/217.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 432s both ;
+}
+#p218{
+    background: url('images/218.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 434s both ;
+}
+#p219{
+    background: url('images/219.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s  436s both;
+}
+#p220{
+    background: url('images/220.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 438s both ;
+}
+#p221{
+    background: url('images/221.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 440s both;
+}
+#p222{
+    background: url('images/222.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 442s both ;
+}
+#p223{
+    background: url('images/223.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 444s both ;
+}
+#p224{
+    background: url('images/224.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 446s both ;
+}
+#p225{
+    background: url('images/225.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 448s both;
+}
+#p226{
+    background: url('images/226.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 450s both ;
+}
+#p227{
+    background: url('images/227.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 452s both ;
+}
+#p228{
+    background: url('images/228.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 454s both ;
+}
+#p229{
+    background: url('images/229.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s  456s both;
+}
+#p230{
+    background: url('images/230.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 458s both ;
+}
+#p231{
+    background: url('images/231.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 460s both;
+}
+#p232{
+    background: url('images/232.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 462s both ;
+}
+#p233{
+    background: url('images/233.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 464s both ;
+}
+#p234{
+    background: url('images/234.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 466s both ;
+}
+#p235{
+    background: url('images/235.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 468s both;
+}
+#p236{
+    background: url('images/236.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  470s both ;
+}
+#p237{
+    background: url('images/237.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 472s both ;
+}
+#p238{
+    background: url('images/238.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 474s both ;
+}
+#p239{
+    background: url('images/239.png') no-repeat center 0 ;
+    -webkit-animation: p3  2s 476s both;
+}
+#p240{
+    background: url('images/240.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 478s both ;
+}
+#p251{
+    background: url('images/251.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 480s both;
+}
+#p252{
+    background: url('images/252.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s 482s both ;
+}
+#p253{
+    background: url('images/253.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 484s both ;
+}
+#p254{
+    background: url('images/254.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 486s both ;
+}
+#p255{
+    background: url('images/255.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 488s both;
+}
+#p256{
+    background: url('images/256.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  490s both ;
+}
+#p257{
+    background: url('images/257.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 492s both ;
+}
+#p258{
+    background: url('images/258.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 494s both ;
+}
+#p259{
+    background: url('images/259.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s  496s both;
+}
+#p260{
+    background: url('images/260.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 498s both ;
+}
+#p261{
+    background: url('images/261.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 500s both;
+}
+#p262{
+    background: url('images/262.png') no-repeat center 0 ;
+    -webkit-animation: p5 2s 502s both ;
+}
+#p263{
+    background: url('images/263.png') no-repeat center 0 ;
+    -webkit-animation: p6 2s 504s both ;
+}
+#p264{
+    background: url('images/264.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 506s both ;
+}
+#p265{
+    background: url('images/265.png') no-repeat center 0 ;
+    -webkit-animation: p1 2s 508s both;
+}
+#p266{
+    background: url('images/266.png') no-repeat center 0 ;
+    -webkit-animation: p2 2s  510s both ;
+}
+#p267{
+    background: url('images/267.png') no-repeat center 0 ;
+    -webkit-animation: p3 2s 512s both ;
+}
+#p268{
+    background: url('images/268.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 514s both ;
+}
+#p269{
+    background: url('images/269.png') no-repeat center 0 ;
+    -webkit-animation: p3  2s 516s both;
+}
+#p270{
+    background: url('images/270.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 518s both ;
+}
+#p271{
+    background: url('images/270.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 520s both ;
+}
+#p272{
+    background: url('images/271.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 522s both ;
+}
+#p273{
+    background: url('images/272.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 524s both ;
+}
+#p274{
+    background: url('images/273.png') no-repeat center 0 ;
+    -webkit-animation: p4 2s 526s both ;
+}
