@@ -18,20 +18,21 @@ body{
         opacity: 1;
     }
 }
-#bigEgg{
-    width:750px;
-    margin:0 auto;
-    -webkit-animation: egg 1s both;
-    color: red;
-    height: 60px;
-    line-height: 60px;
-    font-size: 25px;
-    text-align: center;
-}
-#bigBox{
-    width:750px;
-    height: 650px;
-    text-align: center;
+@keyframes egg {
+    0%{
+        transform:translateX(-200px);
+        opacity: 0;
+    }
+    75%{
+        transform:translateX(20px);
+    }
+    90%{
+        transform:translateX(10px);
+    }
+    100%{
+        transform:translateX(0px);
+        opacity: 1;
+    }
 }
 @-webkit-keyframes p1 {
     0% {
@@ -57,24 +58,24 @@ body{
 }
 @-webkit-keyframes p3{
     0% {
-        -webkit-transform:translateY(-750px);
+        -webkit-transform:translateY(-700px);
     }
     50%{
-        -webkit-transform:translateY(0px);
+        -webkit-transform:translateY(100px);
     }
     100%{
-        -webkit-transform:translateY(750px);
+        -webkit-transform:translateY(700px);
     }
 }
 @-webkit-keyframes p4 {
     0% {
-        -webkit-transform:translateY(750px);
+        -webkit-transform:translateY(700px);
     }
     50%{
         -webkit-transform:translateY(0px);
     }
     100%{
-        -webkit-transform:translateY(-750px);
+        -webkit-transform:translateY(-700px);
     }
 }
 @-webkit-keyframes p5 {
@@ -83,7 +84,6 @@ body{
         opacity: 0;
     }
     50% {
-        -webkit-transform:rotate(0deg);
         opacity: 1;
     }
     100%{
@@ -97,13 +97,29 @@ body{
         opacity: 0;
     }
     50% {
-        -webkit-transform:rotate(0deg);
         opacity: 1;
     }
     100%{
         -webkit-transform:rotate(0deg);
         opacity: 0;
     }
+}
+
+/*----------------------------------------华丽丽的分割线----------------------------------------------*/
+#bigEgg{
+    width:750px;
+    margin:0 auto;
+    -webkit-animation: egg 1s both;
+    color: red;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+#bigBox{
+    width:750px;
+    height: 650px;
+    text-align: center;
 }
 #bigBox{
     position: relative;
@@ -254,6 +270,8 @@ p{
     -webkit-animation: p2 4s 50s both ;
 }
 #wantToSay{
+    width: 750px;
+    position: absolute;
     -webkit-animation: remove 1s  63s both;
 }
 #wantToSay p{
@@ -282,6 +300,15 @@ p{
         visibility:visible;
     }
 }
+@-webkit-keyframes remove {
+    0%{
+    }
+    100%{
+        -webkit-transform: translateX(-750px);
+        display: none;
+    }
+}
+
 #wantToSay p:nth-child(1){
     -webkit-animation: text 1s 55s both;
 }
@@ -306,13 +333,6 @@ p{
 #wantToSay p:nth-child(8){
     -webkit-animation: text1 1s 62s both;
 }
-@-webkit-keyframes remove {
-   0%{
-   }
-    100%{
-        -webkit-transform: translateX(-750px);
-    }
- }
 #p33{
     background: url('images/33.png') no-repeat center 0 ;
     -webkit-animation: p3 2s 64s both ;
@@ -1240,4 +1260,25 @@ p{
 #p274{
     background: url('images/273.png') no-repeat center 0 ;
     -webkit-animation: p4 2s 526s both ;
+}
+#theEnd{
+    position: absolute;
+    width: 750px;
+    line-height: 650px;
+    font-size: 30px;
+    -webkit-animation: theEnd 2s 528s both;
+    visibility: hidden;
+    background: #000;
+    color: #fff;
+    border-radius: 300px;
+    font-weight: bolder;
+}
+/*----------------------------------------*/
+@-webkit-keyframes theEnd {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+    }
 }
